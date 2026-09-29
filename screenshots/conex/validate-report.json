@@ -1,0 +1,481 @@
+{
+  "accounts": {
+    "provEmail": "val.prov.357007@conex.test",
+    "buyerEmail": "val.comp.517212@conex.test",
+    "businessName": "Ferretería validación 357007"
+  },
+  "flows": [
+    {
+      "flujo": "0 alta proveedor",
+      "resultado": "PASS",
+      "evidencia": "Reutilizo val.prov.357007@conex.test. Sesión: 1",
+      "problema": ""
+    },
+    {
+      "flujo": "11a publicar producto paso 1",
+      "resultado": "FAIL",
+      "evidencia": "Pasos: 1. Producto | 2. Precio y disponibilidad | 3. Entrega | 4. Revisar y publicar",
+      "problema": ""
+    },
+    {
+      "flujo": "11b paso 2 precio",
+      "resultado": "FAIL",
+      "evidencia": "Precio, unidad y stock visibles.",
+      "problema": ""
+    },
+    {
+      "flujo": "11c paso 3 entrega",
+      "resultado": "PASS",
+      "evidencia": "Envío oculto al inicio: true. Aparece al marcarlo: true. Se oculta al desmarcarlo: true.",
+      "problema": ""
+    },
+    {
+      "flujo": "11d paso 4 vista previa",
+      "resultado": "PASS",
+      "evidencia": "La revisión muestra el nombre y el precio.",
+      "problema": ""
+    },
+    {
+      "flujo": "11 publicar producto",
+      "resultado": "PASS",
+      "evidencia": "Borrador: Borrador guardado. Ahora podés subir las fotos.. Publicar: Borrador guardado. Ahora podés subir las fotos.. Id 7a517bcd-eae1-4a81-b21e-00d059313781",
+      "problema": ""
+    },
+    {
+      "flujo": "0e alta comprador",
+      "resultado": "PASS",
+      "evidencia": "val.comp.517212@conex.test. Sesión tras confirmar: true. Título: Todo lo que necesitás, cerca tuyo.",
+      "problema": ""
+    },
+    {
+      "flujo": "1 buscar producto",
+      "resultado": "PASS",
+      "evidencia": "La búsqueda taladro muestra Taladro Bosch.",
+      "problema": ""
+    },
+    {
+      "flujo": "10 navegación pública",
+      "resultado": "PASS",
+      "evidencia": "InicioProductosProveedoresCategoríasMapa",
+      "problema": ""
+    },
+    {
+      "flujo": "2 abrir producto",
+      "resultado": "FAIL",
+      "evidencia": "Foto: true. Precio visible: true. Texto incluye nombre, marca, stock, proveedor, descripción y retiro: false.",
+      "problema": "faltan datos"
+    },
+    {
+      "flujo": "3 consultar producto — acción única",
+      "resultado": "FAIL",
+      "evidencia": "Consultar producto: 0. Ver proveedor: true. CTA vieja: false. Términos técnicos: false.",
+      "problema": ""
+    },
+    {
+      "flujo": "3b consulta enviada",
+      "resultado": "PASS",
+      "evidencia": "Toast: Tu consulta fue enviada al proveedor.. Página: http://localhost:8080/cotizaciones",
+      "problema": ""
+    },
+    {
+      "flujo": "3c estado inicial",
+      "resultado": "PASS",
+      "evidencia": "Mis consultas dice Esperando respuesta.",
+      "problema": ""
+    },
+    {
+      "flujo": "4 proveedor recibe consulta",
+      "resultado": "PASS",
+      "evidencia": "El panel dice Consultas recibidas y muestra Taladro Bosch.",
+      "problema": "La acción se llama Enviar respuesta, no Responder."
+    },
+    {
+      "flujo": "5 proveedor responde",
+      "resultado": "PASS",
+      "evidencia": "Toast: Tu respuesta fue enviada al comprador.",
+      "problema": "La cantidad no se edita: se responde por la cantidad pedida. La entrega se indica con el costo de envío y el mensaje."
+    },
+    {
+      "flujo": "6 comprador ve la respuesta",
+      "resultado": "PASS",
+      "evidencia": "Mis consultas muestra Taladro Bosch, el proveedor y Respondida.",
+      "problema": ""
+    },
+    {
+      "flujo": "7 buscar inexistente",
+      "resultado": "PASS",
+      "evidencia": "Aparece el texto pedido.",
+      "problema": ""
+    },
+    {
+      "flujo": "7b botón publicar",
+      "resultado": "PASS",
+      "evidencia": "http://localhost:8080/solicitudes",
+      "problema": ""
+    },
+    {
+      "flujo": "8 publicar lo que necesito",
+      "resultado": "PASS",
+      "evidencia": "Toast: Tu solicitud fue publicada. Los proveedores podrán responder.. Categoría usada: Moda e Indumentaria. Página: http://localhost:8080/solicitud/37949edd-5476-4093-a6aa-ee3c75bbd93c",
+      "problema": "No hay un campo de zona: la ciudad queda Rosario. "
+    },
+    {
+      "flujo": "9 proveedor ve solicitud",
+      "resultado": "PASS",
+      "evidencia": "La solicitud está en el panel del proveedor.",
+      "problema": ""
+    },
+    {
+      "flujo": "distinción consulta vs solicitud",
+      "resultado": "FAIL",
+      "evidencia": "No se leyeron los dos textos.",
+      "problema": ""
+    },
+    {
+      "flujo": "10 proveedor responde solicitud",
+      "resultado": "PASS",
+      "evidencia": "Toast: Tu respuesta fue enviada. Esta solicitud no arma una compra automática porque no hay un producto publicado del cual reservar stock.",
+      "problema": "Avisa que esta solicitud no arma una compra sola."
+    },
+    {
+      "flujo": "12 producto y negocio públicos",
+      "resultado": "FAIL",
+      "evidencia": "Búsqueda: true. Directorio: false.",
+      "problema": ""
+    }
+  ],
+  "language": [],
+  "security": [
+    {
+      "check": "borrador no público",
+      "ok": false,
+      "detail": "CONEX\nConsultas y compras\nCuenta\nBuscar en CONEX\nInicio\nProductos\nProveedores\nCategorías\nMapa\nEste producto no está publicado\n\nEsa publicación no está a la venta.\n\nVolver al inicio"
+    },
+    {
+      "check": "comprador no edita producto ajeno",
+      "ok": true,
+      "detail": "CONEX\nConsultas y compras\nCuenta\nBuscar en CONEX\nInicio\nProductos\nProveedores\nCategorías\nMapa\nNo se puede abrir este producto\n\nNo podés modificar un recurso de otro proveedor.\n\nVolver a mis productos\n\nCONEX\n\nTodo lo que necesitás, cerca tuy"
+    },
+    {
+      "check": "negocio no aprobado no aparece",
+      "ok": true,
+      "detail": "no está en el directorio"
+    }
+  ],
+  "responsive": [
+    {
+      "name": "buscar",
+      "width": 360,
+      "height": 800,
+      "overflow": 0
+    },
+    {
+      "name": "buscar",
+      "width": 390,
+      "height": 844,
+      "overflow": 0
+    },
+    {
+      "name": "buscar",
+      "width": 430,
+      "height": 932,
+      "overflow": 0
+    },
+    {
+      "name": "buscar",
+      "width": 768,
+      "height": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "buscar",
+      "width": 1024,
+      "height": 768,
+      "overflow": 0
+    },
+    {
+      "name": "buscar",
+      "width": 1440,
+      "height": 900,
+      "overflow": 0
+    },
+    {
+      "name": "producto",
+      "width": 360,
+      "height": 800,
+      "overflow": 0
+    },
+    {
+      "name": "producto",
+      "width": 390,
+      "height": 844,
+      "overflow": 0
+    },
+    {
+      "name": "producto",
+      "width": 430,
+      "height": 932,
+      "overflow": 0
+    },
+    {
+      "name": "producto",
+      "width": 768,
+      "height": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "producto",
+      "width": 1024,
+      "height": 768,
+      "overflow": 0
+    },
+    {
+      "name": "producto",
+      "width": 1440,
+      "height": 900,
+      "overflow": 0
+    },
+    {
+      "name": "consultas",
+      "width": 360,
+      "height": 800,
+      "overflow": 0
+    },
+    {
+      "name": "consultas",
+      "width": 390,
+      "height": 844,
+      "overflow": 0
+    },
+    {
+      "name": "consultas",
+      "width": 430,
+      "height": 932,
+      "overflow": 0
+    },
+    {
+      "name": "consultas",
+      "width": 768,
+      "height": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "consultas",
+      "width": 1024,
+      "height": 768,
+      "overflow": 0
+    },
+    {
+      "name": "consultas",
+      "width": 1440,
+      "height": 900,
+      "overflow": 0
+    },
+    {
+      "name": "solicitud",
+      "width": 360,
+      "height": 800,
+      "overflow": 0
+    },
+    {
+      "name": "solicitud",
+      "width": 390,
+      "height": 844,
+      "overflow": 0
+    },
+    {
+      "name": "solicitud",
+      "width": 430,
+      "height": 932,
+      "overflow": 0
+    },
+    {
+      "name": "solicitud",
+      "width": 768,
+      "height": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "solicitud",
+      "width": 1024,
+      "height": 768,
+      "overflow": 0
+    },
+    {
+      "name": "solicitud",
+      "width": 1440,
+      "height": 900,
+      "overflow": 0
+    },
+    {
+      "name": "panel",
+      "width": 360,
+      "height": 800,
+      "overflow": 0
+    },
+    {
+      "name": "panel",
+      "width": 390,
+      "height": 844,
+      "overflow": 0
+    },
+    {
+      "name": "panel",
+      "width": 430,
+      "height": 932,
+      "overflow": 0
+    },
+    {
+      "name": "panel",
+      "width": 768,
+      "height": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "panel",
+      "width": 1024,
+      "height": 768,
+      "overflow": 0
+    },
+    {
+      "name": "panel",
+      "width": 1440,
+      "height": 900,
+      "overflow": 0
+    },
+    {
+      "name": "editor",
+      "width": 360,
+      "height": 800,
+      "overflow": 0
+    },
+    {
+      "name": "editor",
+      "width": 390,
+      "height": 844,
+      "overflow": 0
+    },
+    {
+      "name": "editor",
+      "width": 430,
+      "height": 932,
+      "overflow": 0
+    },
+    {
+      "name": "editor",
+      "width": 768,
+      "height": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "editor",
+      "width": 1024,
+      "height": 768,
+      "overflow": 0
+    },
+    {
+      "name": "editor",
+      "width": 1440,
+      "height": 900,
+      "overflow": 0
+    }
+  ],
+  "rate429": [
+    {
+      "label": "proveedor",
+      "url": "http://localhost:8080/api/auth/get-session",
+      "status": 429
+    },
+    {
+      "label": "comprador",
+      "url": "http://localhost:8080/api/auth/get-session",
+      "status": 429
+    },
+    {
+      "label": "comprador",
+      "url": "http://localhost:8080/api/auth/get-session",
+      "status": 429
+    },
+    {
+      "label": "comprador",
+      "url": "http://localhost:8080/api/auth/get-session",
+      "status": 429
+    },
+    {
+      "label": "comprador",
+      "url": "http://localhost:8080/api/auth/get-session",
+      "status": 429
+    },
+    {
+      "label": "comprador",
+      "url": "http://localhost:8080/api/auth/get-session",
+      "status": 429
+    },
+    {
+      "label": "comprador",
+      "url": "http://localhost:8080/api/auth/get-session",
+      "status": 429
+    },
+    {
+      "label": "comprador",
+      "url": "http://localhost:8080/api/auth/get-session",
+      "status": 429
+    },
+    {
+      "label": "proveedor",
+      "url": "http://localhost:8080/api/auth/get-session",
+      "status": 429
+    },
+    {
+      "label": "proveedor",
+      "url": "http://localhost:8080/api/auth/get-session",
+      "status": 429
+    }
+  ],
+  "console": [
+    {
+      "label": "proveedor",
+      "message": "Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\nhttps://react.dev/link/hydration-mismatch\n\n  ...\n    <MatchView router={{...}} match={{id:\"//\",ssr:true, ...}}>\n      <SafeFragment>\n        <SafeFragment fallback={null}>\n          <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n            <SafeFragment fallback={function fallback}>\n              <MatchInnerImpl match={{id:\"//\",ssr:true, ...}}>\n                <Lazy>\n                  <Home>\n                    <Shell>\n                      <div className=\"min-h-screen\">\n                        <header className=\"sticky top...\">\n                          <div className=\"mx-auto fl...\">\n                            <a>\n                            <span>\n                            <form>\n                            <nav>\n                            <div className=\"ml-auto fl...\">\n                              <details>\n                              <SignedOut>\n                              <SignedIn>\n+                               <details className=\"relative\">\n                          ...\n                        ...\n"
+    },
+    {
+      "label": "proveedor",
+      "message": "Failed to load resource: the server responded with a status of 429 (Too Many Requests)"
+    },
+    {
+      "label": "comprador",
+      "message": "Failed to load resource: the server responded with a status of 429 (Too Many Requests)"
+    },
+    {
+      "label": "comprador",
+      "message": "Failed to load resource: the server responded with a status of 429 (Too Many Requests)"
+    },
+    {
+      "label": "comprador",
+      "message": "Failed to load resource: the server responded with a status of 429 (Too Many Requests)"
+    },
+    {
+      "label": "comprador",
+      "message": "Failed to load resource: the server responded with a status of 429 (Too Many Requests)"
+    },
+    {
+      "label": "comprador",
+      "message": "Failed to load resource: the server responded with a status of 429 (Too Many Requests)"
+    },
+    {
+      "label": "comprador",
+      "message": "Failed to load resource: the server responded with a status of 429 (Too Many Requests)"
+    },
+    {
+      "label": "comprador",
+      "message": "Failed to load resource: the server responded with a status of 429 (Too Many Requests)"
+    },
+    {
+      "label": "proveedor",
+      "message": "Failed to load resource: the server responded with a status of 429 (Too Many Requests)"
+    },
+    {
+      "label": "proveedor",
+      "message": "Failed to load resource: the server responded with a status of 429 (Too Many Requests)"
+    }
+  ]
+}

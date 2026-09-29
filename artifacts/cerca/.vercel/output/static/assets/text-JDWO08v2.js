@@ -1,0 +1,1 @@
+function e(e){return e.normalize(`NFD`).replace(/\p{M}/gu,``).toLowerCase().replace(/\s+/g,` `).trim()}export{e as t};

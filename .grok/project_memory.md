@@ -1,0 +1,2 @@
+- Producto CONEX; código en artifacts/cerca/. UI rebrand a CONEX, reportes 0007_reports.sql, nav por rol, home y perfil mejorados [2026-09-26]
+- Este chat (proyecto Grok) no puede crear el panel preview derecho; eso solo existe en App Builder [2026-09-26]

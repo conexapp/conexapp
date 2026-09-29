@@ -1,0 +1,259 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "width": 1280,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/login",
+      "width": 1280,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/categorias",
+      "width": 1280,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/categorias",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/proteccion",
+      "width": 1280,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/proteccion",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/panel",
+      "width": 1280,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/cuenta",
+      "width": 1280,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/admin",
+      "width": 1280,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/cotizaciones",
+      "width": 1280,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/pedidos",
+      "width": 1280,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/cotizar",
+      "width": 1280,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/cotizar",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "responsive": [
+    {
+      "path": "/",
+      "width": 360,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/",
+      "text": "CONEX Entrar Buscar en CONEX Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcción Juguetes, Be",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/",
+      "text": "CONEX Entrar Buscar en CONEX Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcción Juguetes, Be",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/",
+      "width": 430,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/",
+      "text": "CONEX Entrar Buscar en CONEX Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcción Juguetes, Be",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/",
+      "text": "CONEX Rosario Buscar en CONEX Carrito Entrar Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcc",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/login",
+      "width": 360,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Entrar Buscar en CONEX Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcción Juguetes, Be",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/login",
+      "width": 390,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Entrar Buscar en CONEX Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcción Juguetes, Be",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/login",
+      "width": 430,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Entrar Buscar en CONEX Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcción Juguetes, Be",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/login",
+      "width": 768,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Rosario Buscar en CONEX Carrito Entrar Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcc",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/login",
+      "width": 1024,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/login",
+      "width": 1440,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/login",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/categorias",
+      "width": 360,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/categorias",
+      "text": "CONEX Entrar Buscar en CONEX Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcción Juguetes, Be",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/categorias",
+      "width": 390,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/categorias",
+      "text": "CONEX Entrar Buscar en CONEX Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcción Juguetes, Be",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/categorias",
+      "width": 430,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/categorias",
+      "text": "CONEX Entrar Buscar en CONEX Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcción Juguetes, Be",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/categorias",
+      "width": 768,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/categorias",
+      "text": "CONEX Rosario Buscar en CONEX Carrito Entrar Todas las categorías Necesito esto Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herramientas y Construcc",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/categorias",
+      "width": 1024,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/categorias",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "path": "/categorias",
+      "width": 1440,
+      "status": 200,
+      "url": "http://127.0.0.1:8080/categorias",
+      "text": "CONEX Rosario Buscar en CONEX Mapa Categorías Cotizar Vender Carrito Entrar Todas las categorías Tecnología Moda e Indumentaria Hogar y Muebles Alimentos y Bebidas Deportes y Fitness Vehículos y Accesorios Belleza y Cuidado Personal Herrami",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "consoleErrors": []
+}
